@@ -17,7 +17,7 @@ const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
-      <Sonner />
+      <Sonner />  
       <BrowserRouter>
         <Layout>
           <Routes>
@@ -26,7 +26,6 @@ const App = () => (
             <Route path="/daily-food" element={<DailyFood />} />
             <Route path="/analytics" element={<Analytics />} />
             <Route path="/people" element={<PeopleList />} />
-            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Layout>

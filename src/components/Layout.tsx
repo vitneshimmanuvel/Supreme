@@ -16,13 +16,13 @@ export function Layout({ children }: LayoutProps) {
         
         <div className="flex-1 flex flex-col">
           {/* Header */}
-          <header className="h-16 border-b border-border bg-card/50 backdrop-blur-sm">
+          <header className="h-16 border-b border-border  backdrop-blur-sm">
             <div className="flex items-center justify-between h-full px-6">
               <div className="flex items-center gap-4">
                 <SidebarTrigger className="h-8 w-8" />
                 <div>
                   <h1 className="font-semibold text-lg text-foreground">
-                   Supreme Canteen Management
+                   Settlo Canteen Management
                   </h1>
                   <p className="text-sm text-muted-foreground">
                     {new Date().toLocaleDateString('en-IN', { 

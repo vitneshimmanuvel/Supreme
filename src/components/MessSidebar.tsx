@@ -85,7 +85,7 @@ export function MessSidebar() {
           <UtensilsCrossed className="h-8 w-8 animate-pulse-glow" />
           {!collapsed && (
             <div>
-              <h2 className="font-bold text-lg">Mess Control</h2>
+              <h2 className="font-bold text-lg">Settlo Mess </h2>
               <p className="text-xs text-primary-foreground/80">Corporate Canteen</p>
             </div>
           )}
